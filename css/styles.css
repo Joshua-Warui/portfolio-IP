@@ -94,3 +94,7 @@ h2 {
   border-radius: 20px;
   text-align: center;
 }
+
+.projects h2 {
+  border: none;
+}
