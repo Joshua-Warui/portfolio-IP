@@ -57,7 +57,7 @@ li a:hover {
 }
 
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
   padding: 10px;
 }
@@ -76,10 +76,10 @@ h2 {
 .main {
   margin-top: 5px;
   margin-bottom: 5px;
-  width:77%;
+  width:75%;
   background-color: rgba(0, 0, 0, 0.600);
   border-radius: 5px;
-  padding-bottom: 80%;
+  padding: 10px;
 
 
 }
@@ -95,6 +95,48 @@ h2 {
   text-align: center;
 }
 
-.projects h2 {
-  border: none;
+.projects h3 {
+  background-color: darksalmon;
+  color: black;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+.projects h4 {
+  color: darksalmon;
+  border-bottom: 1px solid darksalmon;
+  margin: 5% 0 5% 0;
+  
+}
+
+.projects {
+  margin: 10px;
+}
+
+.github-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.container {
+  display: block;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAIVBMVEUeHh4KCgobGxsZGRkVFRUPDw8YGBgSEhIHBwcNDQ0gICCCyc1fAAAC5UlEQVR4nO3b3XKbMBCGYUnod+//giuQEMIW2O1B7Ebvk0yLEw6Yb5ZlBUQpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA/5eIKJNtG7ghaglJx41OYVHkdUVM0FF3og6GuEbEuFNSNS9HXANhENUWV+BkPBMzTqqguHriL8qqFpcnrUbsbVY5LUta1Yu6orY6Yl5mldOibxUlDucfpqwtI229K1ufPsqvIDWMJa9vfFq38vRe/0k+/3CpYVJaSpZaTuWTTdbnhWFeHvq8WfLRe5qfPM6vIEl3YfXL57ZVd0jTh3VcCa/34YpYtcLS5nIfTWkVbWyI/mqXJb7Ocwpi9yDc9U5uz3PyOV5cq5rrINoie/bpYc8h3OQgYd/r547rG+0tKy53e+1dK87dtMxbMbwX6W8nfu/d9/vt18OpJ602khLWa1TWXzjCeqtnzR3WMZ1fzu+qm1znbvBHzdzNm23Omnx0aEPp7bz51k6/33HT4Xrdd6wfJ7/tcKxkLm8pdM9f79ZEM+ie7IyX0l1Ws7es2o9iPROf4hLVzsHpW1ZtSMmYFLfnXqbPS8T0Uc1+O2tVa6o8wY/atYnLu4e3tT55lN9hSyk6aa3++JU+o7ByWvsp9niuiT1lNfncUJULYu7lbn0MbR5/waWwV9pVrihR5vSSXx8W3b2S7Q3J5zGrD2v2efQg26u39vFEO8KKsz/XOdlqKz60puMBLHXVay9KjsKiXz3IS8A4DivysvKAHYdlP3dEXywvmlM8jVMxJstfDFxY/x6s/2wMUQH4WuuNv9Kj2gY9a0xMCIsKxhhZvJg6MQRuNgyIj8FqtahkJaT8SW2lFg1pPZPk1tMw5nWPC8kHLXHxWmnHwnBAWx9zOMblytIh1bCiWaZ/qPNMXFL53CthOVn2sJQnrIH1aViupBBD6Vnlc+Kew8g2L+QvU2cIWf9fvz99YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/iDzSDEZiiYrTdAAAAAElFTkSuQmCC");
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  color: bisque;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.back-box {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.back-box:hover {
+  background-color: rgba(0, 0, 0, 0.63);
+  transition: background-color 0.5s ease-in;
 }
