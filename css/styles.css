@@ -109,7 +109,7 @@ h2 {
   padding-top: 10px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 50% 33%;
+  object-position: 50% 35%;
   border-radius: 20px;
   text-align: center;
 }
@@ -214,4 +214,21 @@ input[type=submit]:hover {
 .faq-box:hover {
   background-color: rgba(0, 0, 0, 0.950);
   transition: background-color 0.2s ease-in;
+}
+
+.hire-intro {
+  text-align: center;
+}
+
+.hire-box {
+  background-color: rgba(0, 0, 0, 0.350);
+  padding: 2%;
+  border-radius: 10px;
+  margin: 2%;
+}
+
+.hire-intro h3 {
+  color: darksalmon;
+  background-color: black;
+  border-radius: 10px;
 }
