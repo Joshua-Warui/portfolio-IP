@@ -198,3 +198,20 @@ input[type=submit]:hover {
   background-color: rgb(197, 126, 102);
   transition: background-color 0.2s ease-in;
 }
+
+.faq-box {
+  background-color: rgba(0, 0, 0, 0.350);
+  padding: 2%;
+  border-radius: 10px;
+  margin: 2%;
+}
+
+.faq-box h3 {
+  color: darksalmon;
+  border-bottom: 1px solid darksalmon;
+}
+
+.faq-box:hover {
+  background-color: rgba(0, 0, 0, 0.950);
+  transition: background-color 0.2s ease-in;
+}
