@@ -154,3 +154,47 @@ h2 {
   background-color: rgba(0, 0, 0, 0.63);
   transition: background-color 0.5s ease-in;
 }
+
+.form {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.650);
+  padding: 2%;
+}
+
+.form h4 {
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-size: medium;
+  font-family: 'kalam';
+  font-weight: bold;
+  border: 2px solid darksalmon;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+option {
+  font-weight: bold;
+  color: grey;
+}
+
+input[type=submit] {
+  background-color: darksalmon;
+  color: bisque;
+  padding: 20px 35px;
+  border: 2px solid darksalmon;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'aclonica';
+  font-size: large;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(197, 126, 102);
+  transition: background-color 0.2s ease-in;
+}
