@@ -6,6 +6,10 @@ body {
 
 }
 
+span {
+  font-style: oblique;
+}
+
 .sidebar {
   float: right;
   width: 20%;
@@ -27,7 +31,7 @@ body {
   font-weight: bolder;
 }
 
-ul {
+.navigation-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 5px;
@@ -36,13 +40,13 @@ ul {
   border-radius: 5px;
 }
 
-li {
+.navigation-bar li {
   float: left;
   width: 23%;
   text-align: center;
 }
 
-li a {
+.navigation-bar li a {
   display: block;
   text-decoration: none;
   padding: 5%;
@@ -51,7 +55,7 @@ li a {
   border-radius: 5px;
 }
 
-li a:hover {
+.navigation-bar li a:hover {
   background-color: rgb(197, 126, 102);
   transition: background-color 0.2s ease-in;
 }
